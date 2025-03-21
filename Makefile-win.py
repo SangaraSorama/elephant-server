@@ -175,7 +175,8 @@ if __name__ == "__main__":
 
 
 ### How to use for both Windows and Linux users:
-# python tasks.py build
-# python tasks.py launch
-# python tasks.py notebook
+# python Makefile-win.py build
+# python Makefile-win.py launch
+# python Makefile-win.py notebook
+## Should be called by the .py laucher
 
