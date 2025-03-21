@@ -171,3 +171,11 @@ if __name__ == "__main__":
         TASKS[args.task]()
     except subprocess.CalledProcessError:
         sys.exit(1)
+
+
+
+### How to use for both Windows and Linux users:
+# python tasks.py build
+# python tasks.py launch
+# python tasks.py notebook
+
